@@ -7,7 +7,7 @@ import { useNavigate } from 'react-router-dom'
 import { saveAs } from 'file-saver';
 
 const url = "https://api.unsplash.com/photos?client_id=";
-const api = "LQvV59f2FJIJ6c_R6LjUz4zi7INGdaLenG8joULnnN0";
+const api = process.env.API_KEY;
 
 function Photolibrary() {
 
